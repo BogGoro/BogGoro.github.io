@@ -4,32 +4,8 @@
     <title>Troegubov Denis</title>
     <style>
       body {
-        background: #120f22;
+        background: black;
         font-family: SF UI Display;
-      }
-      .main_block {
-        margin-top: 1rem;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .content {
-        padding: 1em 0 1em 0;
-        margin: 0px;
-        width: 100%;
-        background: #fff;
-        border-radius: 2em;
-        border-collapse: collapse;
-      }
-
-      .name {
-        text-align: center;
-      }
-      .text {
-        padding: 0 1rem 0 1rem;
-      }
-      .list-text {
-        font-size: large;
       }
       .container {
         display: flex;
@@ -57,6 +33,41 @@
           border-color: transparent
         }
       }
+      .main_block {
+        margin-top: 1rem;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .content {
+        padding: 1em 0 1em 0;
+        margin: 0px;
+        width: 100%;
+        background: #fff;
+        border-radius: 3em;
+        border-collapse: collapse;
+      }
+      .text-centered {
+        text-align: center;
+      }
+      .text {
+        padding: 0 1rem 0 1rem;
+      }
+      .list-text {
+        font-size: large;
+      }
+      .between-img {
+        width: 100%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 1vw 0 0;
+      }
     </style>
   </head>
 
@@ -77,9 +88,11 @@
           <br>
           I'm constantly seeking opportunities to learn and grow as a data professional. This portfolio showcases my projects and technical abilities to date.
         </h3>
+
         <h2 class="text">
           Technical stack:
         </h2>
+
         <div class="text">
           <ul class="list-text">
             <li>Programming languages: Python, C++, Java</li>
@@ -89,7 +102,34 @@
             <li>Languages: Russian - Native, English - B2</li>
           </ul>
         </div>
+
       </div>
     </div>
+
+    <img class='between-img' src="imgs/between.jpg">
+
+    <div class="main_block">
+      <div class="content">
+        <h2 class="text-centered">
+          Useful links
+        </h2>
+        <div class="text-centered">
+
+          <a class="icon" href="https://t.me/BogGoro">
+                <img alt="telegram" height="60" src="imgs/telegram.png" />
+          </a>
+
+          <a class="icon" href="https://github.com/BogGoro">
+                <img alt="github" height="60" src="imgs/github.png" />
+          </a>
+
+          <a class="icon" href="mailto:troyegubov.den@gmail.com">
+                <img alt="email" height="60" src="imgs/email.png" />
+          </a>
+
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
