@@ -5,7 +5,6 @@
     <style>
       body {
         background: #120f22;
-        font-weight: 500;
         font-family: SF UI Display;
       }
       .main_block {
@@ -22,36 +21,75 @@
         border-radius: 2em;
         border-collapse: collapse;
       }
+
       .name {
         text-align: center;
       }
       .text {
-        padding: 0 1em 0 1em;
+        padding: 0 1rem 0 1rem;
+      }
+      .list-text {
+        font-size: large;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .type {
+        width: 16.5rem;
+        color: white;
+        animation: typing 3s steps(15), blink 0.3s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: 'Anonymous Pro', monospace;
+        font-size: 2em;
+        text-align: left;
+      }
+      @keyframes typing {
+        from {
+          width: 0
+        }
+      }    
+      @keyframes blink {
+        50% {
+          border-color: transparent
+        }
       }
     </style>
   </head>
 
   <body>
-      <div class="main_block">
-        <div class="content">
-          <h1 class="name">Troegubov Denis</h1>
-          <h3 class="text">Hello! My name is Denis, and I'm a first-year bachelor student at Innopolis University on the path to becoming a Data Scientist.
-            <br/>
-            <br/>
-            I'm constantly seeking opportunities to learn and grow as a data professional. This portfolio showcases my projects and technical abilities to date.</h3>
-          <h2 class="text">
-            Technical stack:
-          </h2>
-          <h3 class="text">
-            <ul>
-              <li>Programming languages: Python, C++, Java</li>
-              <li>Python libraries: Aiogram, Telebot, Numpy, Pandas, Sklearn</li>
-              <li>Data bases: PostgreSQL, SQLite</li>
-              <li>Other: HTML, CSS, Docker, Figma</li>
-              <li>Languages: Russian - Native, English - B2</li>
-            </ul>
-          </h3>
+
+    <div class="container">
+      <div class="type">
+        Troegubov Denis
+      </div>
+    </div>
+
+    <div class="main_block">
+      <div class="content">
+        
+        <h3 class="text">
+          Hello! My name is Denis, and I'm a first-year bachelor student at Innopolis University on the path to becoming a Data Scientist.
+          <br>
+          <br>
+          I'm constantly seeking opportunities to learn and grow as a data professional. This portfolio showcases my projects and technical abilities to date.
+        </h3>
+        <h2 class="text">
+          Technical stack:
+        </h2>
+        <div class="text">
+          <ul class="list-text">
+            <li>Programming languages: Python, C++, Java</li>
+            <li>Python libraries: Aiogram, Telebot, Numpy, Pandas, Sklearn</li>
+            <li>Data bases: PostgreSQL, SQLite</li>
+            <li>Other: HTML, CSS, Docker, Figma</li>
+            <li>Languages: Russian - Native, English - B2</li>
+          </ul>
         </div>
       </div>
+    </div>
   </body>
 </html>
