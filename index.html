@@ -2,75 +2,8 @@
 <html lang="en">
   <head>
     <title>Troegubov Denis</title>
-    <style>
-      body {
-        background: black;
-        font-family: SF UI Display;
-      }
-      .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .type {
-        width: 16.5rem;
-        color: white;
-        animation: typing 3s steps(15), blink 0.3s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-        font-family: 'Anonymous Pro', monospace;
-        font-size: 2em;
-        text-align: left;
-      }
-      @keyframes typing {
-        from {
-          width: 0
-        }
-      }
-      @keyframes blink {
-        50% {
-          border-color: transparent
-        }
-      }
-      .main_block {
-        margin-top: 1rem;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .content {
-        padding: 1em 0 1em 0;
-        margin: 0px;
-        width: 100%;
-        background: #fff;
-        border-radius: 3em;
-        border-collapse: collapse;
-      }
-      .text-centered {
-        text-align: center;
-      }
-      .text {
-        padding: 0 1rem 0 1rem;
-      }
-      .list-text {
-        font-size: large;
-      }
-      .between-img {
-        width: 100%;
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-      }
-      .icon {
-        display: inline-block;
-        vertical-align: middle;
-        margin: 0 1vw 0 0;
-      }
-    </style>
+    <style>@import "index.css";</style>
   </head>
-
   <body>
 
     <div class="container">
@@ -103,6 +36,16 @@
           </ul>
         </div>
 
+      </div>
+    </div>
+
+    <div class="main_block">
+      <div class="centered-content">
+          <button id="get-comic">Get a comic</button>
+          <h2 id="comic-title"></h2>
+          <div id="comic"></div>
+          <h3 id="comic-date"></h3>
+          <script src="comic.js"></script>
       </div>
     </div>
 
