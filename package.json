@@ -1,0 +1,24 @@
+{
+  "name": "homework-3",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^3.17.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
