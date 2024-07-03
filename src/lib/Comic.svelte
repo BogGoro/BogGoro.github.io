@@ -36,10 +36,10 @@
 
   async function getComic() {
       comicTitle = "Loading...";
-      var image = '';
-      var imageDesc = '';
-      var comicDate = '';
-      var comicFromNow = '';
+      image = '';
+      imageDesc = '';
+      comicDate = '';
+      comicFromNow = '';
       handleCoimic(await fetchComic());
   };
 </script>
