@@ -1,79 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <title>Troegubov Denis</title>
-    <style>@import "index.css";</style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Svelte + TS</title>
   </head>
   <body>
-
-    <div class="container">
-      <div class="type">
-        Troegubov Denis
-      </div>
-    </div>
-
-    <div class="main_block">
-      <div class="content">
-        
-        <h3 class="text">
-          Hello! My name is Denis, and I'm a first-year bachelor student at Innopolis University on the path to becoming a Data Scientist.
-          <br>
-          <br>
-          I'm constantly seeking opportunities to learn and grow as a data professional. This portfolio showcases my projects and technical abilities to date.
-        </h3>
-
-        <h2 class="text">
-          Technical stack:
-        </h2>
-
-        <div class="text">
-          <ul class="list-text">
-            <li>Programming languages: Python, C++, Java</li>
-            <li>Python libraries: Aiogram, Telebot, Numpy, Pandas, Sklearn</li>
-            <li>Data bases: PostgreSQL, SQLite</li>
-            <li>Other: HTML, CSS, Docker, Figma</li>
-            <li>Languages: Russian - Native, English - B2</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="main_block">
-      <div class="centered-content">
-          <button id="get-comic">Get a comic</button>
-          <h2 id="comic-title"></h2>
-          <div id="comic"></div>
-          <h3 id="comic-date"></h3>
-          <h3 id="comic-from-now"></h3>
-          <script src="dist/bundle.js"></script>
-      </div>
-    </div>
-
-    <img alt="picture" class='between-img' src="imgs/between.jpg">
-
-    <div class="main_block">
-      <div class="content">
-        <h2 class="text-centered">
-          Useful links
-        </h2>
-        <div class="text-centered">
-
-          <a id="tg-link" class="icon" href="https://t.me/BogGoro">
-                <img alt="telegram" height="60" src="imgs/telegram.png">
-          </a>
-
-          <a id="gh-link" class="icon" href="https://github.com/BogGoro">
-                <img alt="github" height="60" src="imgs/github.png">
-          </a>
-
-          <a id="email" class="icon" href="mailto:troyegubov.den@gmail.com">
-                <img alt="email" height="60" src="imgs/email.png">
-          </a>
-
-        </div>
-      </div>
-    </div>
-
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
