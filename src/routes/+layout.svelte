@@ -4,6 +4,8 @@
 	import Socials from './Socials.svelte';
 	import between from '../lib/images/between.jpg';
 	import '../app.css';
+	export const prerender = true;
+	export const trailingSlash = 'always';
 </script>
 
 <div class="app">
