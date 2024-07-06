@@ -31,9 +31,8 @@ jobs:
           node-version: '20.x'
       - run: npm ci
       - run: npm run build
-      - name: Run tests
-        run: npm run lint
-        run: npm run check
+      - run: npm run lint
+      - run: npm run check
       - name: Deploy to GitHub Pages
         id: deployment
         run: npm run deploy
