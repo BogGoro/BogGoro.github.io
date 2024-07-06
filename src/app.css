@@ -1,87 +1,88 @@
-
 body {
-  background: black;
-  font-family: SF UI Display;
+	background: black;
+	font-family: SF UI Display;
 }
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .type {
-  width: 16.5rem;
-  color: white;
-  animation: typing 3s steps(15), blink 0.3s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 2em;
-  text-align: left;
+	width: 16.5rem;
+	color: white;
+	animation:
+		typing 3s steps(15),
+		blink 0.3s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 2em;
+	text-align: left;
 }
 @keyframes typing {
-  from {
-    width: 0
-  }
+	from {
+		width: 0;
+	}
 }
 @keyframes blink {
-  50% {
-    border-color: transparent
-  }
+	50% {
+		border-color: transparent;
+	}
 }
 .main_block {
-  margin-top: 1rem;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+	margin-top: 1rem;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .content {
-  padding: 1em 0 1em 0;
-  margin: 0px;
-  width: 100%;
-  background: #fff;
-  border-radius: 3em;
-  border-collapse: collapse;
+	padding: 1em 0 1em 0;
+	margin: 0px;
+	width: 100%;
+	background: #fff;
+	border-radius: 3em;
+	border-collapse: collapse;
 }
 .text-centered {
-  text-align: center;
+	text-align: center;
 }
 .text {
-  padding: 0 1rem 0 1rem;
+	padding: 0 1rem 0 1rem;
 }
 .list-text {
-  font-size: large;
+	font-size: large;
 }
 .between-img {
-  width: 100%;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+	width: 100%;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .icon {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 1vw 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 1vw 0 0;
 }
 .centered-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: 0px;
-  width: 100%;
-  background: #fff;
-  border-radius: 3em;
-  border-collapse: collapse;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0px;
+	width: 100%;
+	background: #fff;
+	border-radius: 3em;
+	border-collapse: collapse;
+	align-items: center;
 }
 button {
-font-size: 2.5em;
-margin-top: 1em;
-border: none;
-cursor: pointer;
-color: #fff;
-border-radius: 3em;
-width: 5em;
-background: #001571;
+	font-size: 2.5em;
+	margin-top: 1em;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 3em;
+	width: 5em;
+	background: #001571;
 }
