@@ -8,7 +8,7 @@
 </script>
 
 <head>
-	<link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
+	<link rel="icon" href="../../favicon.jpg" />
 	<meta name="author" content="Denis Troegubov" />
 </head>
 

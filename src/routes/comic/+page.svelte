@@ -7,7 +7,7 @@
 
 <head>
 	<title>Comic</title>
-
+	<meta name="title" content="Comic" />
 	<meta name="description" content="Shows the comic and information about it" />
 </head>
 

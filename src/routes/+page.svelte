@@ -1,7 +1,7 @@
 <head>
 	<title>Introduction</title>
-
-	<meta name="description" content="Greeting" />
+	<meta name="title" content="Introduction" />
+	<meta name="description" content="Greeting user" />
 </head>
 
 <div class="main_block">

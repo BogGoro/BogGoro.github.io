@@ -1,6 +1,6 @@
 <head>
 	<title>My bio</title>
-
+	<meta name="title" content="My bio" />
 	<meta name="description" content="Information about me and my technological stack" />
 </head>
 
