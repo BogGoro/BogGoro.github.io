@@ -8,7 +8,6 @@
 </script>
 
 <head>
-	<link rel="icon" href="../../favicon.jpg" />
 	<meta name="author" content="Denis Troegubov" />
 </head>
 
