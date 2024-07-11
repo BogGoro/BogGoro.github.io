@@ -7,6 +7,11 @@
 	export const trailingSlash = 'always';
 </script>
 
+<head>
+	<link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
+	<meta name="author" content="Denis Troegubov" />
+</head>
+
 <div class="app">
 	<Header />
 

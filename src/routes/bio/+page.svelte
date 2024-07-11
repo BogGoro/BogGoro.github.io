@@ -1,3 +1,9 @@
+<head>
+	<title>My bio</title>
+
+	<meta name="description" content="Information about me and my technological stack" />
+</head>
+
 <div class="main_block">
 	<div class="content">
 		<h3 class="text">

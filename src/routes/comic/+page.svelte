@@ -5,6 +5,12 @@
 	$: ({ date } = data);
 </script>
 
+<head>
+	<title>Comic</title>
+
+	<meta name="description" content="Shows the comic and information about it" />
+</head>
+
 <div class="main_block">
 	<div class="centered-content">
 		<h2>{comic?.safe_title || 'Loading...'}</h2>
